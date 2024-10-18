@@ -237,3 +237,19 @@ Uncheck "Use Gravity" in the Bullet "Rigidbody" properties to disable the gravit
 Then, uncheck all the XYZ options under "Freeze Position" and "Freeze Rotation"
 
 ![Image](./images/BulletRigidbodySettings.png)
+
+Open the "Bullet" C# script in the "Scripts" folder
+
+Add the following code to make the "Bullet" disappear when it collides with a "Wall"
+
+```cs
+
+void OnTriggerEnter(Collider other)
+{
+    if (other.gameObject.name.Contains("Wall"))
+    {
+        Destroy(this.gameObject);
+    }
+}
+
+```
