@@ -22,3 +22,15 @@ In Unity Hub, switch to the "Installs" tab to manage installed Unity versions or
 ※ Before using Unity Hub, you must sign in with your Unity ID
 
 ![Image](./images/UnityHub_InstallsTab.png)
+
+## Let's start a new Unity project!
+
+First, switch to the "Projects" tab in Unity Hub
+
+Here, you can manage previously opened Unity projects
+
+You can directly click on a project from the list to open it, or click the "New Project" button in the top-right corner to create a new project
+
+Now let's click on "New Project" to continue the introduction
+
+![Image](./images/UnityHub_ProjectsTab_NewProject.png)
