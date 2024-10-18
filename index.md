@@ -34,3 +34,17 @@ You can directly click on a project from the list to open it, or click the "New 
 Now let's click on "New Project" to continue the introduction
 
 ![Image](./images/UnityHub_ProjectsTab_NewProject.png)
+
+### Create a new project
+
+On the project creation page
+
+select 3D under the Templates section in the middle of the screen.
+
+On the right side of the screen, enter the project details, such as the "project name" and "storage path"
+
+Check whether to use "Unity Cloud" or "Unity Version Control" services
+
+Finally, click the "Create Project" button to create the project
+
+![Image](./images/CreateNewProject.png)
