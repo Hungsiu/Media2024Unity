@@ -126,3 +126,17 @@ Add the following code in the "Update" method.
 gameObject.transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
 
 ```
+## Shoot!
+
+Create a new folder within the "Assets" folder and name it "Prefabs"
+
+Right-click in the "Hierarchy" panel,than select "3D Object" and choose "Sphere" to create a sphere to serve as the bullet
+
+![Image](./images/CreateBullet.png)
+
+In the "Inspector" panel, rename the Sphere to "Bullet" and adjust the Scale to 0.2
+
+![Image](./images/Bullet_InspectorSetting.png)
+
+Drag the configured "Bullet" from the "Hierarchy" panel into the "Prefabs" folder in the "Assets"
+
