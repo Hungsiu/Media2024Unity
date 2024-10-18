@@ -75,11 +75,11 @@ Use different Materials to decorate your Player!
 
 ### Add C# Script
 
-Create a new folder within the "Assets" folder and name it "Scripts"
+Create a new folder within the "Assets" folder and rename it "Scripts"
 
-Right-click on the "Scripts" folder, then select "Create" and click on "C# Script" to add a new C# file
+Right-click on the "Scripts" folder, then select "Create" and click on "C# Script" to add a new C# script
 
-Name this C# file "Player"
+Rename this C# script "Player" and drag this C# script onto the "Player"
 
 ![Image](./images/CreateCSharpScript.png)
 
@@ -126,7 +126,8 @@ Add the following code in the "Update" method.
 gameObject.transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
 
 ```
-## Shoot!
+
+## Create Bullet
 
 Create a new folder within the "Assets" folder and name it "Prefabs"
 
@@ -138,5 +139,20 @@ In the "Inspector" panel, rename the Sphere to "Bullet" and adjust the Scale to 
 
 ![Image](./images/Bullet_InspectorSetting.png)
 
+Create a new C# script in the "Scripts" folder
+
+Rename this C# script "Bullet" and drag this C# script onto the "Bullet"
+
+Click on the "Bullet" script file to open it
+
+Add the following code in the "Update" method
+
+```cs
+
+this.gameObject.transform.Translate(0, 0, .025f);
+
+```
+
 Drag the configured "Bullet" from the "Hierarchy" panel into the "Prefabs" folder in the "Assets"
 
+## Shoot!
