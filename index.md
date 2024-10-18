@@ -156,3 +156,33 @@ this.gameObject.transform.Translate(0, 0, .025f);
 Drag the configured "Bullet" from the "Hierarchy" panel into the "Prefabs" folder in the "Assets"
 
 ## Shoot!
+
+Open the "Player" C# script and add the following code at the beginning
+
+```cs
+
+public GameObject bullet;
+
+```
+
+By using the "public" access modifier, the user can assign an object to the "Player",which will treat it as a bullet
+
+Go back to "Hierarchy" panel,select "Player"
+
+Drag the "Bullet" from the "Prefabs" folder into the "Bullet" field in the "Inspector" panel of the "Player"
+
+![Image](./images/AssignBulletToPlayer.png)
+
+Add the following code in the "Update" method of the "Player" C# Script
+
+Allow the user to shoot "Bullet" when clicking the left mouse button
+
+```cs
+
+if (Input.GetMouseButtonDown(0))
+{
+    Instantiate(bullet, this.gameObject.transform);
+}
+
+```
+
