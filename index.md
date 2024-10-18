@@ -48,3 +48,21 @@ Check whether to use "Unity Cloud" or "Unity Version Control" services
 Finally, click the "Create Project" button to create the project
 
 ![Image](./images/CreateNewProject.png)
+
+## In Unity
+
+First, use "Plane" and "Cube" to create the floor and walls of the scene
+
+Combine "Capsule" and "Cube" to form the Player
+
+![Image](./images/CreateTerrainAndPlayer.png)
+
+Let's decorate the Player with a Material. Otherwise, it will be too plain with just white
+
+Right-click on the "Assets" folder in the "Project" panel
+
+Then select "Create" and click on "Material" to add a new material
+
+After adding the Material, you can give it a recognizable name
+
+![Images](./images/CreateMaterial.png)
