@@ -89,9 +89,9 @@ Name this C# file "Player"
 
 Click on the "Player" script file to open it
 
-Add the following code in the Update method
+Add the following code in the "Update" method
 
-Allow the user to move the Player's position using the "W","A","S" and "D" keys
+Allow the user to move the Player's position using the "W" , "A" , "S" and "D" keys
 
 ```cs
 
@@ -114,5 +114,15 @@ if (Input.GetKey(KeyCode.D))
 {
     this.gameObject.transform.Translate(.01f, 0, 0);
 }
+
+```
+
+Next, move the mouse to rotate the Player's angle
+
+Add the following code in the "Update" method.
+
+```cs
+
+gameObject.transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
 
 ```
