@@ -75,4 +75,12 @@ Use different Materials to decorate your Player!
 
 ### Add C# Script
 
+Create a new folder within the "Assets" folder and name it "Scripts"
 
+Right-click on the "Scripts" folder, then select "Create" and click on "C# Script" to add a new C# file
+
+Name this C# file "Player"
+
+![Image](./images/CreateCSharpScript.png)
+
+![Image](./images/CreatePlayerScript.png)
