@@ -207,3 +207,15 @@ if (Input.GetMouseButtonDown(0))
 }
 
 ```
+
+## Add Collision
+
+If the "Player" continuously fires "Bullet" and the "Bullet" do not disappear, it will consume system resources
+
+Therefore, we need to implement a response when the "Bullet" collides with a specific object, which can be achieved through "Collision" and "Rigidbody"
+
+Select the four "Wall" in the Scene. In the "Inspector" panel, click the "Add Component" button
+
+Search 'Rigidbody,' and select "Rigidbody" to add the Rigidbody component to the four walls.
+
+![Image](./images/WallAddRigidBody.png)
