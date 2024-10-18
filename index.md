@@ -253,3 +253,7 @@ void OnTriggerEnter(Collider other)
 }
 
 ```
+
+## Project Outcome
+
+[Download Link](./resource/MediaProjectExport.zip)
