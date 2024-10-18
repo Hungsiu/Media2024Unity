@@ -225,3 +225,15 @@ Uncheck "Use Gravity" in the walls "Rigidbody" properties to disable the gravity
 Then, check all the XYZ options under "Freeze Position" and "Freeze Rotation" to lock the walls' position
 
 ![Image](./images/WallRigidbodySettings.png)
+
+Select the "Bullet" in the "Prefabs" folder
+
+In the "Inspector" panel, click the "Add Component" button
+
+search for "Rigidbody" and select "Rigidbody" to add the "Rigidbody" component to the "Bullet"
+
+Uncheck "Use Gravity" in the Bullet "Rigidbody" properties to disable the gravity effect
+
+Then, uncheck all the XYZ options under "Freeze Position" and "Freeze Rotation"
+
+![Image](./images/BulletRigidbodySettings.png)
