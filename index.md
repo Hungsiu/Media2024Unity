@@ -186,3 +186,24 @@ if (Input.GetMouseButtonDown(0))
 
 ```
 
+The "bullet" spawn position is too low right now
+
+So we need to increase the height a bit
+
+Therefore, the code should be modified as follows
+
+Add a variable "bulletPosition" to determine where the "bullet" should be positioned
+
+And use "Instantiate" to create the "bullet" based on the "bulletPosition"
+
+```cs
+
+if (Input.GetMouseButtonDown(0))
+{
+    var bulletPosition = this.gameObject.transform.position;
+    bulletPosition.y += 1;
+    bulletPosition.z += 1;
+    Instantiate(bullet, bulletPosition, this.transform.rotation);
+}
+
+```
