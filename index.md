@@ -219,3 +219,9 @@ Select the four "Wall" in the Scene. In the "Inspector" panel, click the "Add Co
 Search 'Rigidbody,' and select "Rigidbody" to add the Rigidbody component to the four walls.
 
 ![Image](./images/WallAddRigidBody.png)
+
+Uncheck "Use Gravity" in the walls "Rigidbody" properties to disable the gravity effect
+
+Then, check all the XYZ options under "Freeze Position" and "Freeze Rotation" to lock the walls' position
+
+![Image](./images/WallRigidbodySettings.png)
