@@ -13,3 +13,12 @@ Unity is popular among developers ranging from beginners to professionals
 Unity is currently installed and managed through Unity Hub, so you need to download and install Unity Hub first
 
 Unity Hub [Download link](https://unity.com/download)
+
+
+### Install Unity
+
+In Unity Hub, switch to the "Installs" tab to manage installed Unity versions or install different versions of Unity
+
+※ Before using Unity Hub, you must sign in with your Unity ID
+
+![Image](./images/UnityHub_InstallsTab.png)
