@@ -51,6 +51,8 @@ Finally, click the "Create Project" button to create the project
 
 ## In Unity
 
+### Create terrain and Player
+
 First, use "Plane" and "Cube" to create the floor and walls of the scene
 
 Combine "Capsule" and "Cube" to form the Player
@@ -65,4 +67,12 @@ Then select "Create" and click on "Material" to add a new material
 
 After adding the Material, you can give it a recognizable name
 
+Use different Materials to decorate your Player!
+
+※ You can create additional folders within the "Assets" folder to manage different types of assets
+
 ![Images](./images/CreateMaterial.png)
+
+### Add C# Script
+
+
