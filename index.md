@@ -84,3 +84,35 @@ Name this C# file "Player"
 ![Image](./images/CreateCSharpScript.png)
 
 ![Image](./images/CreatePlayerScript.png)
+
+## Let's make the Player move!
+
+Click on the "Player" script file to open it
+
+Add the following code in the Update method
+
+Allow the user to move the Player's position using the "W","A","S" and "D" keys
+
+```cs
+
+if (Input.GetKey(KeyCode.W))
+{
+    this.gameObject.transform.Translate(0, 0, .01f);
+}
+
+if (Input.GetKey(KeyCode.S))
+{
+    this.gameObject.transform.Translate(0, 0, -.01f);
+}
+
+if (Input.GetKey(KeyCode.A))
+{
+    this.gameObject.transform.Translate(-.01f, 0, 0);
+}
+
+if (Input.GetKey(KeyCode.D))
+{
+    this.gameObject.transform.Translate(.01f, 0, 0);
+}
+
+```
